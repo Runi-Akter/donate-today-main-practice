@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Buttons style */
+
+
+.btn-primary{
+    background-color: #ff5959;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 5px;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.btn-secondary{
+    background-color: #ff5959;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding: 11px 14px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -10px;
+}
+
+/* header section style */
+
+header{
+    background: url(../images/donation0.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(22, 21, 21, 0.7);
+    z-index: 1;
+}
+
+
+
+.header-title{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+     padding: 100px 120px 0px 120px;
+}
+
+.header-description{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+     padding: 0px 200px;
+}
+
+.btn-container{
+   text-align: center;
+   position: relative;
+    z-index: 10;
+    padding-bottom: 100px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* denote today section style */
+
+.donate-today-section{
+    text-align: center;
+    padding: 0px 220px;
+}
+
+.section-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 14px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+.section-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-card-iteam h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.section-card .card-active{
+    background: #f9e2e2;
+    color: red;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.card-ammount{
+    margin: 40px 0 10px 0;
+    font-size: 14px;
+}
+
+/* our denote section style */
+
+.our-donate-paln-section{
+    padding: 0px 140px;
+}
+
+
+.denote-card-container{
+    display: flex;
+    gap: 30px;
+}
+
+.denote-card-iteam{
+    padding: 30px 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.10);
+}
+
+.color1{
+    background: rgb(237, 245, 246);
+}
+
+.color2{
+    background: rgb(255, 238, 238);
+}
+
+.color3{
+    background: rgb(255, 244, 214);
+}
+
+
+.card-title{
+    margin: 20px 0;
+}
+
+.card-description{
+    font-size: 12px;
+}
+
+/* Their live section style */
+
+.their-lives-section{
+    padding: 0px 140px;
+    display: flex;
+    gap: 50px;
+}
+
+.live-content{
+    flex: 50%;
+}
+
+.live-img{
+    flex: 50%;
+}
+
+.live-title{
+    font-size: 35px;
+}
+
+.live-description{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.live-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.get-my-update{
+    text-align: center;
+    padding: 0px 220px;
+    
+}
+
+.subcribe-container{
+    background: rgb(255, 244, 214);
+    padding: 40px 0;
+}
+
+input[type=email]{
+   padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    outline-color: #ff5959;
+}
+
+/* footer section style */
+
+.fotter-section{
+    background: rgb(11, 13, 27);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer-title{
+    color: rgb(255, 89, 89);
+    font-size: 22px;
+}
+
+.fotter-sub-title{
+    color: rgb(110, 140, 164);
+    font-size: 14px;
+    margin-top: 15px;
+}
+
